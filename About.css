@@ -1,0 +1,53 @@
+.skill{
+    display: flex;
+    color: #F6692D;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(233, 224, 224, 0.829));
+    animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+}
+@keyframes skill {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }
+.skili{
+  padding-left: 20px;
+  color: #F6692D;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+}
+@keyframes skili {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }
+.card {
+    background-color: #f58555!important;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 3px 6px 20px #f8d6c8 ;
+}
+.card:hover{
+    background-color: #df6f4d !important; 
+    cursor: pointer;
+}
+.colori{
+    color: #000000;
+    margin-top: 20px;
+}
+.color1{
+    color: #000000;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.barr {
+    color: #000000 !important;
+    margin-top: 25px;
+}
+
