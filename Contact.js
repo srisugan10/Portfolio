@@ -36,7 +36,7 @@ function Contact() {
                 <Col md={2}></Col>
             </Row><br/><br/>
                 <Row>
-                    <Col md={2}></Col>
+                    <Col md={4}></Col>
                     <Col md={4}>
                         <Card>
                             <Row>
@@ -72,7 +72,7 @@ function Contact() {
                                 <Button  className='btn1' href='https://instagram.com/s_r_i_s_u_g_a_n_10?igshid=OGQ5ZDc2ODk2ZA=='>
                                     <FaSquareInstagram />
                                     </Button>&nbsp;
-                                    <Button className='btn1'>
+                                    <Button className='btn1' href='https://github.com/srisugan10'>
                                         <FaGithub />
                                         </Button>&nbsp;
                                     <Button className='btn1' href='https://www.linkedin.com/in/suganthi-paramasivam-a52a74249/'>
@@ -83,54 +83,10 @@ function Contact() {
                             </Row><br/><br/><br/>
                         </Card>
                     </Col>
-                    <Col md={4}>
-                        <Card>
-                            <h3 className='send'>Send a message</h3><br />
-                            <Row>
-                                <Col md={2}></Col>
-                                <Col md={4}>
-                                    <Form>
-                                        <Form.Control type='text' placeholder='First Name' />
-                                    </Form>
-                                </Col>
-                                <Col md={4}>
-                                    <Form>
-                                        <Form.Control type='text' placeholder='Last Name' />
-                                    </Form>
-                                </Col>
-                                <Col md={2}></Col>
-                            </Row><br />
-                            <Row>
-                                <Col md={2}></Col>
-                                <Col md={4}>
-                                    <Form>
-                                        <Form.Control type='email' placeholder='Email Address' />
-                                    </Form>
-                                </Col>
-                                <Col md={4}>
-                                    <Form>
-                                        <Form.Control type='text' placeholder='Mobile Number' />
-                                    </Form>
-                                </Col>
-                                <Col md={2}></Col>
-                            </Row><br/>
-                            <Row>
-                                <Col md={2}></Col>
-                                <Col md={8}>
-                                    <Form.Control type='text' placeholder='Write a message' />
-                                </Col>
-                                <Col md={2}></Col>
-                            </Row><br/>
-                           <Row> 
-                                <Col md={4}></Col>
-                                <Col md={4}>
-                                    <Button className='btn1' type='submit'>Send</Button> 
-                                </Col>
-                                <Col md={4}></Col>
-                            </Row>&nbsp;
-                        </Card>
+                    <Col md={3}>
+                       
                     </Col>
-                    <Col md={2}></Col>
+                    <Col md={1}></Col>
                 </Row>
          
         </div>
